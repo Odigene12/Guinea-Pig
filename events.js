@@ -1,12 +1,23 @@
 // Create variables for all id's 
 var output = document.getElementById("output-target");
 var keypress = document.getElementById("keypress-input");
-var page-title = document.getElementById("page-title");
-var page-header= document.getElementById("page-header");
-var guinea = document.getElementById("guinea-pig");
-var addColor = document.getElementById("add-color");
-var hulkify = document.getElementById("make-large");
-var capture = document.getElementById("add-border");
-var round = document.get getElementById("add-rounding");
+var pageTitle = document.getElementById("page-title");
+var pageHeader= document.getElementById("page-header");
+var guineaBtn = document.getElementById("guinea-pig");
+var colorBtn = document.getElementById("add-color");
+var hulkifyBtn = document.getElementById("make-large");
+var captureBtn = document.getElementById("add-border");
+var roundBtn = document.getElementById("add-rounding");
 
-var article = document.getElementByclassName("article")
+// Create variable for class
+var article = document.getElementsByClassName("article-section")
+
+// Added event listeners
+
+// article.addeventListener("click", function() {
+// 	output.innerHTML = "you clicked here"
+
+// }
+pageTitle.addEventListener("mouseover", function()	{
+	output.innerHTML = "You moved your mouse over the header.";
+});
