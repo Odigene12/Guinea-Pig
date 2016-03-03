@@ -21,3 +21,11 @@ var article = document.getElementsByClassName("article-section")
 pageTitle.addEventListener("mouseover", function()	{
 	output.innerHTML = "You moved your mouse over the header.";
 });
+
+pageTitle.addEventListener("mouseout", function(){
+	output.innerHTML = "you left me sucker.";
+});
+
+colorBtn.addEventListener("click", function(){
+	guineaBtn.classList.toggle("text");
+});

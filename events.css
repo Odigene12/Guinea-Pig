@@ -1,0 +1,27 @@
+.text {
+	color: blue;
+}
+
+.hulkify {
+	font-size: 20px;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.round {
+	border-radius: 3px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.block {
+	display: block;
+}
